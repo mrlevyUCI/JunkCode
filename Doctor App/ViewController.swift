@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonpress(_ sender: Any) {
         if pressed % 2 == 0 {
-            button1.setTitle("selected", for: .normal)
+            button1.setTitle("selectedddd", for: .normal)
             pressed+=1
         }
         else {
